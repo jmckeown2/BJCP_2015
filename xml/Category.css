@@ -1,0 +1,117 @@
+
+* {
+    box-sizing:border-box;
+}
+    
+h1 {
+font-size:6vw;
+}
+
+h2 {
+font-size:5vw;
+}
+
+h3 {
+font-size:3vw;
+padding-left:0.5em;
+}
+
+.category {
+    width:100%;
+    /* background-color:#4CAF50; */
+}
+
+.beerstyle{
+    background-color:#F1F1F1;
+    display:block;
+    margin:10px;
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-right:5px;
+    padding-left:5px;
+    border: 2px solid #666;
+    border-radius: 15px;
+}
+
+.beersubstyle{
+    background-color:#F1F1F1;
+    display:block;
+    margin:10px;
+    margin-left:30;
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-right:5px;
+    padding-left:5px;
+    border: 2px solid #666;
+    border-radius: 15px;
+}
+/* Clear floats after the columns */
+.beerstyle:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Clear floats after the columns */
+.beersubstyle:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Clear floats after the columns */
+.rawstyle:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.vitalstatistics {
+    border-collapse: collapse;
+    border: 1px solid black;
+    margin-left:1.5em;
+}
+
+.vitalstatistics th, .vitalstatistics td {
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+
+.vitalstatistics th {
+    text-align:right;
+    width:4em;
+}
+
+.vitalstatistics td {
+    text-align:center;
+    width:8em;
+}
+
+.commercialexamples{
+    list-style-type:none;
+}
+
+.main {
+    /* background-color:#f100f1; */
+    float:left;
+    width:70%;
+}
+
+.main p, .right p {
+    padding-left:1.5em;
+    padding-right:1.5em;
+}
+
+.right {
+    /* background-color:#FF0000; */
+    float:left;
+    width:30%;
+}
+
+/* Use a media query to add a break point at 800px: */
+@media screen and (max-width:800px) {
+.main, .right {
+    width:100%; /* The width is 100%, when the viewport is 800px or smaller */
+    }
+}
+    
